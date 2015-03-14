@@ -1,0 +1,19 @@
+{
+    "name": "kaom/laravel-leaderboard",
+    "description": "Points and Ranks for Eloquent models.",
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "Brian Kelly",
+        "email": "oss@anon.rocks"
+    }],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0",
+        "illuminate/database": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kaom\\Leaderboard\\": "src/"
+        }
+    }
+}
